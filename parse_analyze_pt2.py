@@ -264,3 +264,41 @@ redirected = (redirected_count/726736)*100
 formatted_redirected = "{:.2f}".format(redirected)
 
 print('Percent of requests redirected:',formatted_redirected,'%')
+
+f = open(LOCAL_FILE)
+for line in f:
+  if "Oct" in line:
+    open('oct.txt', 'a').writelines(line)
+
+  if "Nov" in line:
+   open('nov.txt', 'a').writelines(line)
+
+  if "Dec" in line:
+    open('dec.txt', 'a').writelines(line)
+
+  if "Jan" in line:
+   open('jan.txt', 'a').writelines(line)
+
+  if "Feb" in line:
+   open('feb.txt', 'a').writelines(line)
+
+  if "Mar" in line:
+   open('mar.txt', 'a').writelines(line)
+
+  if "Apr" in line:
+   open('apr.txt', 'a').writelines(line)
+
+  if "May" in line:
+   open('may.txt', 'a').writelines(line)
+
+  if "Jun" in line:
+   open('jun.txt', 'a').writelines(line)
+
+  if "Jul" in line:
+   open('jul.txt', 'a').writelines(line)
+
+  if "Aug" in line:
+   open('aug.txt', 'a').writelines(line)
+
+  if "Sep" in line:
+   open('sep.txt', 'a').writelines(line)
